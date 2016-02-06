@@ -6,5 +6,10 @@
    :headers {"Content-type" "text/plain"}
    :body "Hello Clojure, Hello Ring"})
 
+(defn my-ip-handler [request]
+  {:status 200
+   :headers {"Content-type" "text/plain"}
+   :body (:remote-addr request)})
+
 (defn -main []
-  (jetty/run-jetty handler {:port 3000}))
+  (jetty/run-jetty my-ip-handler {:port 3000}))

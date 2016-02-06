@@ -1,14 +1,17 @@
-# hello-world
+# hello-world-clojure
 
-A Clojure library designed to ... well, that part is up to you.
+A web application written in clojure.
 
 ## Usage
 
-FIXME
+To run server on http://localhost:3000
+```
+lein run 
+```
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016 
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
