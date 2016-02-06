@@ -4,6 +4,11 @@ A web application written in clojure.
 
 ## Usage
 
+Autoreload server
+```
+lein ring server
+```
+
 To run server on http://localhost:3000
 ```
 lein run 
